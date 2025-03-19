@@ -105,6 +105,11 @@ def main(base_folder, subject_name, num_repetitions, conditions):
 
     # Define the subject folder and sequence file path
     subject_folder = os.path.join(base_folder, "Data", subject_name)
+    # Check if the subject folder exists
+    if not os.path.exists(subject_folder):
+        print(f"Subject folder '{subject_folder}' does not exist. Exiting the program.")
+        sys.exit(1)  # Exit the program if the subject folder doesn't exist
+    
     sequence_file_path = os.path.join(subject_folder, "sequence.txt")
 
     # Check if the subject folder exists
