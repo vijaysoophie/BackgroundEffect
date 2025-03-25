@@ -5,7 +5,7 @@ import sys
 
 # Hardcoded configuration
 BASE_FOLDER = "/Users/vsingh1/Documents/BackgroundEffect"  # Base folder path
-NUM_REPETITIONS = 3  # Number of repetitions
+NUM_REPETITIONS = 1  # Number of repetitions
 CONDITIONS = ["condition_1", "condition_2", "condition_3"]  # List of conditions
 PROJECT_APP_NAME = "Project3_Breaks.app"  # Name of the project app
 
@@ -107,7 +107,7 @@ def main(base_folder, subject_name, num_repetitions, conditions):
     subject_folder = os.path.join(base_folder, "Data", subject_name)
     # Check if the subject folder exists
     if not os.path.exists(subject_folder):
-        print(f"Subject folder '{subject_folder}' does not exist. Exiting the program.")
+        print(f"Subject folder '{subject_folder}' does not exist. Exiting the program. Check if the name is correct or generate conditions.")
         sys.exit(1)  # Exit the program if the subject folder doesn't exist
     
     sequence_file_path = os.path.join(subject_folder, "sequence.txt")
