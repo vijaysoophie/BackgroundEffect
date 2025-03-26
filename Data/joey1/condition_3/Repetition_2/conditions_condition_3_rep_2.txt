@@ -1,0 +1,9 @@
+Parameters used to generate the output file:
+Reference Color LHS: [(0.7, 0.0, 0.0)]
+Comparison Colors LHS: [(0.65, 0.0, 0.0), (0.66, 0.0, 0.0), (0.67, 0.0, 0.0), (0.68, 0.0, 0.0), (0.69, 0.0, 0.0), (0.7, 0.0, 0.0), (0.71, 0.0, 0.0), (0.72, 0.0, 0.0), (0.73, 0.0, 0.0), (0.74, 0.0, 0.0), (0.75, 0.0, 0.0)]
+Background Colors LHS: [(0.65, 0.0, 0.0), (0.7, 0.0, 0.0), (0.75, 0.0, 0.0)]
+Fixed Background LHS: [(0.7, 0.0, 0.0)]
+Number of Repetitions: 30
+Output File: trials_condition_3_rep_2.txt
+Condition File: conditions_condition_3_rep_2.txt
+Base Folder: /Users/vsingh1/Documents/BackgroundEffect/Data/joey1/condition_3/Repetition_2
